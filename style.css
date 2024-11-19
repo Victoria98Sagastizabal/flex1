@@ -1,3 +1,4 @@
 .boxx {
     display: flex;
+    flex-direction: column;
   }
