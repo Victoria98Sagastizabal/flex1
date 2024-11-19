@@ -24,6 +24,7 @@
 
  .uno {
   flex-shrink: 0;
+  align-self: baseline;
  }
 
  .dos {
@@ -33,4 +34,5 @@
 
  .tres {
   flex-grow: 1;
+  align-self: flex-end;
  }
