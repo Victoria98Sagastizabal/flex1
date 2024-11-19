@@ -28,6 +28,7 @@
 
  .dos {
   flex-grow: 1;
+  flex-basis: 700px;
  }
 
  .tres {
