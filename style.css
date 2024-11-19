@@ -22,6 +22,14 @@
   margin: 10px;
  }
 
+ .uno {
+  flex-shrink: 0;
+ }
+
+ .dos {
+  flex-grow: 1;
+ }
+
  .tres {
   flex-grow: 1;
  }
