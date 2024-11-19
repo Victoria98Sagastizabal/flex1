@@ -1,16 +1,24 @@
 .boxx {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+ 
+
+
+   background-color: rgb(140, 255, 127);
+  height: 100px;
+  
   }
 
-
-
-  div {
-   background-color: aquamarine;
-   font-size: medium;
-   font-style: normal;
-   line-height: 50px;
-   width: 200px;
-   margin: 10px;
-  }
+  .boxx > div {
+  background-color: aquamarine;
+  font-size: medium;
+  text-align: center;
+  font-style: normal;
+  line-height: 50px;
+  width: 300px;
+  margin: 10px;
+ 
+ }
