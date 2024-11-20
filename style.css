@@ -37,25 +37,42 @@
     align-self: flex-end;
 }
 
-.grid-container1 {
-    display: grid;
-    
-}
+
 
 .grid-container {
+    
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
     margin-top: 20px;
     background-color: rgba(113, 18, 245, 0.8);
-    text-align: center;
+    align-items: center;
     padding: 5px;
     font-size: 30px;
   }
 
-.number {
-    background-color: rgb(212, 127, 255);
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0bd1fd;
+    padding: 10px;
+    background-color: #580473;
     font-size: medium;
-    text-align: center;
-    font-style: normal;
-    line-height: 20px;
-    width: 200px;
-    margin: 5px;
+    color: aliceblue;
+    font-weight: 400;
 }
+
+
+.merged {
+grid-column: span 2;
+    text-align: center;
+    display: grid;
+   justify-content: space-around;
+    border: 1px solid #0bd1fd;
+    padding: 10px;
+    background-color: #580473;
+    font-size: medium;
+    color: aliceblue;
+    font-weight: 400;
+  }
+
