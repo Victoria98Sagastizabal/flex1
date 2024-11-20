@@ -4,35 +4,58 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
- 
 
 
-   background-color: rgb(140, 255, 127);
-  height: 100px;
-  
+
+    background-color: rgb(140, 255, 127);
+    height: 100px;
+
+}
+
+.boxx>div {
+    background-color: aquamarine;
+    font-size: medium;
+    text-align: center;
+    font-style: normal;
+    line-height: 50px;
+    width: 300px;
+    margin: 10px;
+}
+
+.uno {
+    flex-shrink: 0;
+    align-self: baseline;
+}
+
+.dos {
+    flex-grow: 1;
+    flex-basis: 700px;
+}
+
+.tres {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.grid-container1 {
+    display: grid;
+    
+}
+
+.grid-container {
+    margin-top: 20px;
+    background-color: rgba(113, 18, 245, 0.8);
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
   }
 
-  .boxx > div {
-  background-color: aquamarine;
-  font-size: medium;
-  text-align: center;
-  font-style: normal;
-  line-height: 50px;
-  width: 300px;
-  margin: 10px;
- }
-
- .uno {
-  flex-shrink: 0;
-  align-self: baseline;
- }
-
- .dos {
-  flex-grow: 1;
-  flex-basis: 700px;
- }
-
- .tres {
-  flex-grow: 1;
-  align-self: flex-end;
- }
+.number {
+    background-color: rgb(212, 127, 255);
+    font-size: medium;
+    text-align: center;
+    font-style: normal;
+    line-height: 20px;
+    width: 200px;
+    margin: 5px;
+}
