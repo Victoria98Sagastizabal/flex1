@@ -42,7 +42,8 @@
 .grid-container {
     
     display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 2;
+    grid-template-columns: 5;
     margin-top: 20px;
     background-color: rgba(113, 18, 245, 0.8);
     align-items: center;
@@ -64,7 +65,7 @@
 
 
 .merged {
-grid-column: span 2;
+    grid-column: span 2;
     text-align: center;
     display: grid;
    justify-content: space-around;
