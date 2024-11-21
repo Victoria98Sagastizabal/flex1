@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+
+
 .boxx {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +51,7 @@
 .grid-container {
     
     display: grid; 
-    grid-template-rows: 2;
+    grid-template-rows: 100px auto;
     grid-template-columns: 5;
     margin-top: 20px;
     background-color: rgba(113, 18, 245, 0.8);
@@ -64,11 +73,14 @@
 }
 
 
+
+
 .merged {
-    grid-column: span 2;
+    
+    display: flex;
+   grid-column: span 2;
     text-align: center;
     display: grid;
-   justify-content: space-around;
     border: 1px solid #0bd1fd;
     padding: 10px;
     background-color: #580473;
