@@ -49,13 +49,12 @@
 
 
 .grid-container {
-    
+    gap: 10px;
     display: grid; 
-    grid-template-rows: 100px auto;
-    grid-template-columns: 5;
+    grid-template-rows: 1fr 2fr; 
+    grid-template-columns: repeat(5, 1fr); 
     margin-top: 20px;
     background-color: rgba(113, 18, 245, 0.8);
-    align-items: center;
     padding: 5px;
     font-size: 30px;
   }
@@ -63,7 +62,6 @@
 .cell {
     display: flex;
     justify-content: center;
-    align-items: center;
     border: 1px solid #0bd1fd;
     padding: 10px;
     background-color: #580473;
@@ -73,19 +71,9 @@
 }
 
 
-
-
-.merged {
-    
+.cell.merged {
     display: flex;
-   grid-column: span 2;
-    text-align: center;
-    display: grid;
-    border: 1px solid #0bd1fd;
-    padding: 10px;
-    background-color: #580473;
-    font-size: medium;
-    color: aliceblue;
-    font-weight: 400;
+    grid-column: span 2;
+    
   }
 
