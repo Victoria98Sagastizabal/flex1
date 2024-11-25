@@ -50,16 +50,18 @@
 
 .grid-container {
     gap: 10px;
-    display: grid; 
-    grid-template-rows: 1fr 2fr; 
-    grid-template-columns: repeat(5, 1fr); 
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 20px;
     background-color: rgba(113, 18, 245, 0.8);
     padding: 5px;
     font-size: 30px;
-  }
+
+}
 
 .cell {
+    align-items: center;
     display: flex;
     justify-content: center;
     border: 1px solid #0bd1fd;
@@ -74,6 +76,5 @@
 .cell.merged {
     display: flex;
     grid-column: span 2;
-    
-  }
 
+}
